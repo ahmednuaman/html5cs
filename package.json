@@ -1,5 +1,5 @@
 {
-  "name": "htmlcs",
+  "name": "html5cs",
   "version": "0.0.1",
   "description": "A HTML code style tool",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmednuaman/htmlcs.git"
+    "url": "https://github.com/ahmednuaman/html5cs.git"
   },
   "keywords": [
     "html",
@@ -20,7 +20,7 @@
   "author": "Ahmed Nuaman (ahmed@ahmednuaman.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ahmednuaman/htmlcs/issues"
+    "url": "https://github.com/ahmednuaman/html5cs/issues"
   },
-  "homepage": "https://github.com/ahmednuaman/htmlcs"
+  "homepage": "https://github.com/ahmednuaman/html5cs"
 }
