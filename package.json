@@ -1,0 +1,26 @@
+{
+  "name": "htmlcs",
+  "version": "0.0.1",
+  "description": "A HTML code style tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmednuaman/htmlcs.git"
+  },
+  "keywords": [
+    "html",
+    "code",
+    "style",
+    "checker",
+    "linter"
+  ],
+  "author": "Ahmed Nuaman (ahmed@ahmednuaman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmednuaman/htmlcs/issues"
+  },
+  "homepage": "https://github.com/ahmednuaman/htmlcs"
+}
