@@ -4,7 +4,7 @@
   "description": "A HTML code style tool",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover _mocha -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/ahmednuaman/html5cs/issues"
   },
-  "homepage": "https://github.com/ahmednuaman/html5cs"
+  "homepage": "https://github.com/ahmednuaman/html5cs",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.1"
+  }
 }
