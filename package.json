@@ -4,7 +4,8 @@
   "description": "A HTML code style tool",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha -- -R spec"
+    "test": "istanbul cover _mocha -- -R spec",
+    "codeclimate": "CODECLIMATE_REPO_TOKEN=0e3ae6590e3250f439730fa6a3d8ea1099e3e32d131c3499892c0c50b9429e43 codeclimate < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/ahmednuaman/html5cs",
   "devDependencies": {
+    "codeclimate-test-reporter": "0.0.4",
     "expect.js": "^0.3.1",
     "istanbul": "^0.3.13",
     "mocha": "^2.2.1"
