@@ -2,7 +2,10 @@
   "name": "html5cs",
   "version": "0.0.1",
   "description": "A HTML code style tool",
-  "main": "index.js",
+  "main": "./lib/html5cs",
+  "bin": {
+    "html5cs": "./bin/"
+  },
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec",
     "codeclimate": "CODECLIMATE_REPO_TOKEN=0e3ae6590e3250f439730fa6a3d8ea1099e3e32d131c3499892c0c50b9429e43 codeclimate < coverage/lcov.info"
@@ -29,5 +32,12 @@
     "expect.js": "^0.3.1",
     "istanbul": "^0.3.13",
     "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "glob": "^5.0.3",
+    "lodash": "^3.6.0",
+    "minimist": "^1.1.1",
+    "update-notifier": "^0.3.1"
   }
 }
