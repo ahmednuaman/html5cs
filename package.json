@@ -7,7 +7,7 @@
     "html5cs": "./bin/"
   },
   "scripts": {
-    "test": "istanbul cover _mocha -- -R spec",
+    "test": "istanbul cover jasmine",
     "codeclimate": "CODECLIMATE_REPO_TOKEN=0e3ae6590e3250f439730fa6a3d8ea1099e3e32d131c3499892c0c50b9429e43 codeclimate < coverage/lcov.info"
   },
   "repository": {
@@ -29,15 +29,15 @@
   "homepage": "https://github.com/ahmednuaman/html5cs",
   "devDependencies": {
     "codeclimate-test-reporter": "0.0.4",
-    "expect.js": "^0.3.1",
-    "istanbul": "^0.3.13",
-    "mocha": "^2.2.1"
+    "istanbul": "^0.3.13"
   },
   "dependencies": {
     "chalk": "^1.0.0",
     "glob": "^5.0.3",
     "lodash": "^3.6.0",
     "minimist": "^1.1.1",
+    "pluralize": "^1.1.2",
+    "promise": "^6.1.0",
     "update-notifier": "^0.3.1"
   }
 }
